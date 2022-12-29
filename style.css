@@ -21,16 +21,35 @@ body {
 }
 
 main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	margin: 10px auto;
 	text-align: center;
-	width: 70%;
-	height: 96vh;
-	 /*border: 2px solid black;*/
-	 border-radius: 10px;
-	background-color: var(--color4);
+	width: 90%;
+	height: 76vh;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.705);
 }
 
 h1 {
 	margin: 0 auto;
+	text-align: center;
 	background-color: var(--color5);
+}
+
+iframe {
+	width: 98%;
+	height: 70%;
+}
+
+@media (min-width: 650px) {
+	iframe {
+		width: 70%;
+		height: 95%;
+	}
+
+	main {
+		align-items: center;
+	}
 }
