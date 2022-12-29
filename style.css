@@ -43,6 +43,10 @@ iframe {
 	height: 70%;
 }
 
+a:hover {
+	transform: scale(1.05);
+}
+
 @media (min-width: 650px) {
 	iframe {
 		width: 70%;
